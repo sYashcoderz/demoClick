@@ -1,0 +1,17 @@
+.mainSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0px 12px;
+}
+
+@media screen and (min-width: 900px) {
+  .mainSection {
+    flex-direction: row;
+  }
+  .mainIntro {
+    max-width: 40vw !important;
+  }
+}
